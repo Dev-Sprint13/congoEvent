@@ -55,7 +55,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="fr">
+      <head>
+        <title>Congo Event</title>
+        <meta name="description" content="Votre plateforme événementielle de référence au service de notre culture, de notre identité" />
+        <meta name="keywords" content="culture brazzaville, evenement culturel, site culture, organiser un evenement" />
+        <meta property="og:title" content="Congo Event" />
+        <meta property="og:description" content="Venez profiter d'un congo unique en son genre" />
+        <meta property="og:image" content="https://culturecongo.vercel.app/next.svg" />
+        <meta property="og:url" content="https://congoevent.vercel.app" />
+        <meta property="og:locale" content="fr_FR" />
+        <meta property="og:type" content="website" />
+      </head>
       <body
         className={`${montserrat.variable} ${openSans.variable} ${roboto.variable} antialiased `}
       >
